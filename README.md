@@ -44,7 +44,7 @@ a workaround is to create a "sub" hosted zone for a specific record.
 ## Usage
 
 ```shell
-$ ddns-route53 --zone-id <ZONE_ID> --record-set <RECORD_SET>
+./ddns-route53 -z  <ZONE_ID> -r <RECORD_SET> (a fqdn) -t <SECONDS> -i <IP_ADDRESS>
 ```
 
 > Note: long options on the form `--long-option=` are not supported.
